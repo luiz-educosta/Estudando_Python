@@ -1,5 +1,5 @@
 # Arquivos que não precisam serem adicionados
-.idea
-__pycache__
-.vscode
-venv
+.idea/
+__pycache__/
+.vscode/
+venv/
