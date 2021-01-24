@@ -2,8 +2,10 @@ teste = list()
 teste.append('Gustavo')
 teste.append(40)
 galera = list()
-#  galera.append(teste) tem qeu se fazer uma cópia, se não, se mudar uma estrutura, muda a outra, exemplo embaixo
-"""galera.append(teste)
+"""
+galera . append(teste) tem que se fazer uma cópia, se não, se mudar uma estrutura, muda a outra, exemplo embaixo
+
+galera.append(teste)
 print(galera)
 teste[0] = 'Maria'
 teste[1] = 22
