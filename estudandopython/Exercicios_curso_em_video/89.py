@@ -6,7 +6,8 @@ lista = []
 dados = []
 cont = 0
 while True:
-
+    #  Poderia ter pegado e criado n1, n2, media e feito um
+    #  ficha.append([nome], [n1]...)
     dados.append(str(input('Nome: ')))
     dados.append(float(input('Nota 1: ')))
     dados.append(float(input('Nota 2: ')))
@@ -20,6 +21,7 @@ while True:
     if continua == 'N':
         break
 print('-=' * 40)
+#  Poderia usar for i, a in enumerate(lista)
 print(f'{"No.":<4}', f'{"NOME":<15}', f'{"MEDIA":^5}')
 print('-' * 30)
 for aluno in lista:
