@@ -76,7 +76,7 @@ for e in brasil:
 # for de fora é a lista, de dentro é do dicionário
 print('Usando o for e items')
 for e in brasil:
-    for k, v in e.items:
+    for k, v in e.items():
         print(f'O campo {k} tem valor {v}')
 
 print('Usando dois for')
