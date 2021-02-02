@@ -64,7 +64,7 @@ print(valores)
  
 
 #desempacotamento
-def soma(*val):
+def somar(*val):
     s = 0
     for num in val:
         s += num
@@ -72,5 +72,5 @@ def soma(*val):
 
 
 
-soma(5, 2)
-soma(2, 9, 4)
+somar(5, 2)
+somar(2, 9, 4)
