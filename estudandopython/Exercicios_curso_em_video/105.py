@@ -28,10 +28,10 @@ def notas (*n, sit = False):
         saldo += valor
     media = saldo / tot
 
-    turma['total'] = tot
-    turma['maior'] = maior
-    turma['menor'] = menor
-    turma['media'] = media
+    turma['total'] = tot    #  Poderia ter usado turma['total'] = len(n)
+    turma['maior'] = maior  #  Poderia ter usado turma['maior'] = max(n)
+    turma['menor'] = menor  #  Poderia ter usado turma['menor'] = min(n)
+    turma['media'] = media  #  Poderia ter usado turma['media'] = sum(n)/len(n)
     if sit == True:
         if media < 4:
             turma['situacao'] = 'RUIM'
