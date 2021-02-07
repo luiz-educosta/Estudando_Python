@@ -1,1 +1,1 @@
-import utilidadescev
+from utilidadescev import moeda, dado

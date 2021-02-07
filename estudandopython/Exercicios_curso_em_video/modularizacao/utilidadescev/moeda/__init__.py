@@ -37,3 +37,4 @@ def resumo(p = 0, a = 10, d = 5):
     print(f'{a}% de aumento: \t{moeda(aumentar(p, a))}')
     print(f'{d}% de redução: \t{moeda(diminuir(p, d))}')
     print('-' * 40)
+    
