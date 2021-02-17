@@ -12,7 +12,7 @@ def leiaInt(msg):
             return num
 
             
-def linha (tam = 42):
+def linha(tam = 42):
     return '-' * tam
 
 
@@ -31,3 +31,5 @@ def menu(lista):
     print(linha())
     opc = leiaInt('\033[32mSua opção:\033[m')
     return opc
+
+    
