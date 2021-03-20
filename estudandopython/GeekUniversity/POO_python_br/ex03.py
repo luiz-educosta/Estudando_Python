@@ -38,3 +38,9 @@ class Retangulo:
         return (2 * self.__base) + (2 * self.__altura)
 
     
+bas = float(input('Digite o tamanho da base: '))
+alt = float(input('Digite o tamanho da altura: '))
+
+ret = Retangulo(bas, alt)
+print(f'A área do retangulo é: {ret.area()}')
+print(f'O perimetro do retangulo é: {ret.perimetro()}')
