@@ -1,0 +1,12 @@
+    Seja bem-vindo (a)!Obrigado por visitar meu perfil!
+
+    Me chamo Luiz Eduardo, sou de Cachoeira de Minas e atualmente estou morando em Santa Rita do Sapucaí - Minas Gerais. Sou Técnico em Eletrônica pela ETE “FMC”, Tecnólogo em Automação Industrial pelo Inatel, onde também estou cursando Pós Graduação em Internet das Coisas. 
+
+    Trabalho no Inatel Competence Center - ICC como Tester|QA no Laboratório de Hardware e Software Embarcado desenvolvendo testes e garantindo a qualidade dos projetos aos quais sou alocado. 
+    
+    Tenho uma paixão enorme por IoT e sistemas embarcados, além de sempre que possível me manter atualizado sobre as tecnologias que vêm aparecendo constantemente. Como passatempo profissional gosto de estudar inglês por meio de aplicativos ou textos, ler livros de diversos temas, aprimorar e/ou aprender uma linguagem de programação.
+
+    Fique a vontade também para visitar meu perfil no GitHub : https://github.com/luiz-educosta
+
+
+
