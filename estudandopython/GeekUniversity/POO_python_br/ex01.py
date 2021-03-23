@@ -10,11 +10,17 @@ class Bola:
         self.__material = material
 
 
-    def trocaCor(self, cor):
-        self.__cor = cor
-
-    
-    def mostraCor(self):
+    @property
+    def cor(self):
         return self.__cor
 
 
+    @cor.setter
+    def cor(self, cor):
+        self.__cor = cor
+
+    
+
+bola = Bola('branco',4 ,'plastico')
+bola.cor = 'roxo'  # Usando o Setter
+print(bola.cor)  # Usando o getter
