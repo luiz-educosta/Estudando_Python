@@ -22,15 +22,16 @@ def main():
         try:
             if (first_time == 0):
                 player_number = int(input('Type a number:'))
+                first_time += 1
             else:
                 player_number = int(input('Try again:'))
-            first_time += 1
+
             if (secret_number < player_number):
                 print(
-                    f'The number {secret_number} is less than {player_number}!')
+                    f'The number is less than {player_number}!')
             elif (secret_number > player_number):
                 print(
-                    f'The number {secret_number} is higher than {player_number}!')
+                    f'The number is higher than {player_number}!')
             else:
                 print(
                     f'The secret number is {secret_number}! Congratulations!')
